@@ -1,0 +1,4 @@
+Flask==3.0.3
+Flask-SQLAlchemy==2.5.1
+qrcode==7.3
+Werkzeug==3.0.0which python3
