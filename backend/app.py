@@ -34,7 +34,7 @@ def create_badge():
     db.session.commit()
 
 
-    profile_url = f"http://localhost:3000/profile/{badge.id}"
+    profile_url = f"http://localhost:3000/badge/{badge.id}"
     qr_path = generate_qr_code(profile_url, badge.id)
     badge.qr_code_url = qr_path  
     db.session.commit()
