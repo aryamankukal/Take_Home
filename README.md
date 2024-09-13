@@ -4,7 +4,7 @@ git clone https://github.com/aryamankukal/Take_Home_Hacker_Profile.git
 ```
 # get into backend directory
 ```
-cd Take_Home_Hacker_Profile/backend
+cd backend
 ```
 # create virtual env
 ```
